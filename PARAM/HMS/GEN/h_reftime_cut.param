@@ -15,8 +15,7 @@
 ; hcer_adcrefcut=-100000.
 ; hcal_adcrefcut=-100000.
 
-
-; determined from fall 2019 - spring 2020 offline analysis A1N, d2n
+; determined from fall 2019 - spring 2020 offline analysis
 ; cut variable = hDCREF2
 hdc_tdcrefcut=-20000.
 ; cut variable = hT2

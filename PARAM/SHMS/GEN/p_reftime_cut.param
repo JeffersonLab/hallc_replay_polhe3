@@ -17,10 +17,7 @@
 ; paero_adcrefcut=-100000.
 ; pcal_adcrefcut=-100000.
 
-
-
-
-; determined from fall 2019 - spring 2020 offline analysis A1N, d2n
+; determined from fall 2019 - spring 2020 offline analysis
 ; cut variable = pDCREF(min)
 pdc_tdcrefcut=-14400.
 ; cut variable = pT1

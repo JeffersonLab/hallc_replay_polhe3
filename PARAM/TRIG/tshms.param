@@ -10,13 +10,11 @@ t_shms_trig_adcrefcut=-5000.
 
 helicity_freq = 120.0007547169
 
-
-
 ; cut variable is pT2
-; determined from fall 2019 - spring 2020 analysis A1N, d2n
+; determined from fall 2019 - spring 2020 analysis
 t_shms_trig_tdcrefcut = -3400.
 ; cut variable is pFADC_TREF_ROC2
-; determined from fall 2019 - spring 2020 analysis A1N, d2n
+; determined from fall 2019 - spring 2020 analysis
 t_shms_trig_adcrefcut = -4200.
 
 ; bar num:          1      2      3      4         5             6          7         8        9        10       11

@@ -13,6 +13,9 @@
 *.swp
 *.sw*
 
+# Analysis output
+hel_scalers_*.json
+
 # Directories
 RAID
 REPORT_OUTPUT

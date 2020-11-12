@@ -1,0 +1,39 @@
+﻿Starting point was a clone of the master branch of https://eicweb.phy.anl.gov/jlab/hallc/exp/polhe3/hallc_replay.git 
+to: /group/c-polhe3/Users/mrehfuss/hallc_replay/ in March
+ 
+UPDATED PARAM FILES:
+
+Done first in April/May:
+Reference Time Cuts
+    • located in /group/c-polhe3/Users/mrehfuss/hallc_replay/PARAM/(S)HMS/GEN/(p)(h)_reftime_cut.param
+    • SHMS runs used for studies: 10614, 10602, 10744, 10698, 10337, 10433, 9779, 9780, 10793, 10794
+    • HMS runs used for studies: 2608, 2636, 3408, 3419, 2673, 2716, 3199, 3615, 3616
+
+*HMS/SHMS Calorimeter Detector Time Window studies done next, and all params were unchanged**
+
+Done third in June/July:
+CALORIMETERS
+    • “(S)HMS_final_cal_param”
+        ◦ contains new gain constants for each spectrometer for A1n:
+            ▪ 2.129, 2.6, & 3.4 GeV for SHMS
+            ▪ 2.9 & 3.5 GeV for HMS
+        ◦ HMS: calibration script CALIBRATION/hms_cal_calib/hcal_calib.cpp+ was used for runs chained together for each momentum setting
+            ▪ 2.9 GeV: 3196 - 3205
+            ▪ 3.5 GeV: 3408, 3411, 3418-3425
+        ◦ SHMS: calibration script CALIBRATION/shms_cal_calib/pcal_calib.cpp+ was used for runs chained together for each momentum setting:
+            ▪ 2.129 GeV: 9833, 9839, 9840-9842
+            ▪ 2.6 GeV: 10337-10341, 10433 - 10437
+            ▪ 3.4 GeV: 10602, 10614, 10698, 10678, 10641-10646
+        ◦ located in /group/c-polhe3/Users/mrehfuss/hallc_replay/PARAM/HMS/CAL/hcal_calib.param
+
+
+
+**git pull done periodically throughout**
+
+
+
+Done fourth in September/October
+BCMs
+    • “gscalers.param”
+        ◦ located in /group/c-polhe3/Users/mrehfuss/hallc_replay/PARAM/GEN/gscalers.param
+        ◦ Used Deb Biswas’ BCM calibration script for the procedure: https://github.com/JeffersonLab/hallc_bcm_calib

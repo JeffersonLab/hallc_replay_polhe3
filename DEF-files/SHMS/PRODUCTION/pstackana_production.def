@@ -14,10 +14,10 @@ variable T.shms.pDCREF1_tdcTimeRaw
 variable T.shms.pT2_tdcMultiplicity
 variable T.shms.pT2_tdcTime
 variable T.shms.pT2_tdcTimeRaw
-
+block T.shms.*
 block T.helicity.*
 
-## block P.ngcer.*
+block P.ngcer.*
 variable P.ngcer.npeSum
 variable P.ngcer.npe
 variable P.ngcer.totNumAdcHits
@@ -27,7 +27,7 @@ variable P.ngcer.totNumTracksMatched
 variable P.ngcer.xAtCer
 variable P.ngcer.yAtCer
 
-## block P.dc.*
+block P.dc.*
 variable P.dc.ntrack
 variable P.dc.x_fp
 variable P.dc.xp_fp
@@ -37,7 +37,7 @@ variable P.dc.yp_fp
 ## block P.tr.*
 variable P.tr.n
 
-## block P.hod.*
+block P.hod.*
 variable P.hod.1x.DiffDisTrack
 variable P.hod.1x.TrackXPos
 variable P.hod.1x.TrackYPos
@@ -106,6 +106,7 @@ variable P.cal.pr.eplane_neg
 variable P.cal.pr.eplane_pos
 variable P.cal.pr.totnumAdcHits
 variable P.cal.pr.totnumGoodAdcHits
+block P.cal.*
 
 ## SHMS golden track
 block P.gtr.*

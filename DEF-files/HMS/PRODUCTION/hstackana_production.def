@@ -13,10 +13,10 @@ variable T.hms.hDCREF1_tdcTimeRaw
 variable T.hms.hT1_tdcMultiplicity
 variable T.hms.hT1_tdcTime
 variable T.hms.hT1_tdcTimeRaw
-
+block T.hms.*
 block T.helicity.*
 
-## block H.cer.*
+block H.cer.*
 variable H.cer.npeSum
 variable H.cer.npe
 variable H.cer.totNumAdcHits
@@ -26,7 +26,7 @@ variable H.cer.totNumTracksMatched
 variable H.cer.xAtCer
 variable H.cer.yAtCer
 
-# block H.dc.*
+block H.dc.*
 variable H.dc.ntrack
 variable H.dc.x_fp
 variable H.dc.xp_fp
@@ -36,7 +36,7 @@ variable H.dc.yp_fp
 ## block H.tr.*
 variable H.tr.n
 
-## block H.hod.*
+ block H.hod.*
 variable H.hod.1x.DiffDisTrack
 variable H.hod.1x.TrackXPos
 variable H.hod.1x.TrackYPos
@@ -73,7 +73,7 @@ variable H.hod.1y.posAdcCounter
 variable H.hod.2y.negAdcCounter
 variable H.hod.2y.posAdcCounter
 
-## block H.cal.*
+ block H.cal.*
 variable H.cal.1pr.eplane
 variable H.cal.1pr.eplane_neg
 variable H.cal.1pr.eplane_pos

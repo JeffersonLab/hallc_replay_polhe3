@@ -50,8 +50,8 @@ std::string output_file_pattern(string_view path, string_view content, string_vi
 int replay_shms(
     Int_t RunNumber = 7160, Int_t MaxEvent = -1, Int_t FirstEvent = 0,
     const std::string& mode      = "default",
-    const std::string& odef_file = "DEF-files/HMS/PRODUCTION/pstackana_production.def",
-    const std::string& cut_file  = "DEF-files/HMS/PRODUCTION/CUTS/pstackana_production_cuts.def",
+    const std::string& odef_file = "DEF-files/SHMS/PRODUCTION/pstackana_production.def",
+    const std::string& cut_file  = "DEF-files/SHMS/PRODUCTION/CUTS/pstackana_production_cuts.def",
     const bool         do_coin   = false) {
   // ===========================================================================
   // Setup logging

@@ -10,7 +10,7 @@ phgcer_num_regions = 4;
 ; Number of regions in which tracks can be matched too
 ; phgcer_region: 8 values for each region (1 per mirror + sum)
 ; central x,y,dx,dy values and x,y,dx,dy half widths.
-; Defined in clomuns, region 1, region 2, region 3, region 4...
+; Defined in columns, region 1, region 2, region 3, region 4...
 ; Assumes rectangular volume with x = 55 cm and y = 50 cm
 ; FIX ME! Waiting for numbers from detector
 phgcer_region =   27.5,    27.5,  -27.5,  -27.5,   
